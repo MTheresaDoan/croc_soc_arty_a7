@@ -1,1 +1,0 @@
-# croc_soc_arty_a7
