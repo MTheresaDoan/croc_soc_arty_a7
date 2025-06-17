@@ -1,0 +1,169 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Jun  6 13:34:52 2025
+# Process ID: 103246
+# Current directory: /home/veronrd/veron_github/croc_soc/xilinx
+# Command line: vivado /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.xpr
+# Log file: /home/veronrd/veron_github/croc_soc/xilinx/vivado.log
+# Journal file: /home/veronrd/veron_github/croc_soc/xilinx/vivado.jou
+# Running On: veronrd-Precision-5680, OS: Linux, CPU Frequency: 629.100 MHz, CPU Physical cores: 14, Host memory: 66981 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/veronrd/Desktop/tool/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/veronrd/Desktop/tool/Vivado/2022.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 10
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'logic' [/home/veronrd/veron_github/croc_soc/xilinx/hw/croc_xilinx.sv:77]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.clk_or_tree' [/home/veronrd/veron_github/croc_soc/rtl/common_cells/clk_mux_glitch_free.sv:0] -->> '.xil_defaultlib.clk_or_tree' [/home/veronrd/veron_github/croc_soc/rtl/common_cells/clk_mux_glitch_free.sv:256]
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Fri Jun  6 13:36:03 2025] Launched synth_1...
+Run output will be captured here: /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.clk_or_tree' [/home/veronrd/veron_github/croc_soc/rtl/common_cells/clk_mux_glitch_free.sv:0] -->> '.xil_defaultlib.clk_or_tree' [/home/veronrd/veron_github/croc_soc/rtl/common_cells/clk_mux_glitch_free.sv:256]
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.srcs/sources_1/ip/clkwiz/clkwiz.xci' is already up-to-date
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Fri Jun  6 13:37:21 2025] Launched synth_1...
+Run output will be captured here: /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 10
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.srcs/sources_1/ip/clkwiz/clkwiz.xci' is already up-to-date
+[Fri Jun  6 13:41:38 2025] Launched impl_1...
+Run output will be captured here: /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint '/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.gen/sources_1/ip/clkwiz/clkwiz.dcp' for cell 'i_clkwiz'
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.06 . Memory (MB): peak = 7934.543 ; gain = 0.000 ; free physical = 16474 ; free virtual = 30315
+INFO: [Netlist 29-17] Analyzing 768 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.gen/sources_1/ip/clkwiz/clkwiz_board.xdc] for cell 'i_clkwiz/inst'
+Finished Parsing XDC File [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.gen/sources_1/ip/clkwiz/clkwiz_board.xdc] for cell 'i_clkwiz/inst'
+Parsing XDC File [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.gen/sources_1/ip/clkwiz/clkwiz.xdc] for cell 'i_clkwiz/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.gen/sources_1/ip/clkwiz/clkwiz.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.gen/sources_1/ip/clkwiz/clkwiz.xdc:57]
+Finished Parsing XDC File [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.gen/sources_1/ip/clkwiz/clkwiz.xdc] for cell 'i_clkwiz/inst'
+Parsing XDC File [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.srcs/constrs_1/imports/src/nexys-a7-100t.xdc]
+WARNING: [Constraints 18-619] A clock with name 'sys_clk' already exists, overwriting the previous clock with the same name. [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.srcs/constrs_1/imports/src/nexys-a7-100t.xdc:16]
+CRITICAL WARNING: [Common 17-1548] Command failed: wrong # args: should be "set varName ?newValue?"
+ [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.srcs/constrs_1/imports/src/nexys-a7-100t.xdc:20]
+CRITICAL WARNING: [Designutils 20-970] Unrecognized or unsupported command 'set soc_clk [get_clocks -of_objects [get_pins i_clkwiz/clk_out1] //clk20M
+
+############
+# Switches #
+############
+
+set_input_delay -min -clock $soc_clk [expr { $SOC_TCK * 0.10 }] [ get_ports {gpio_i*  ... (truncated) ' found in constraint file. [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.srcs/constrs_1/imports/src/nexys-a7-100t.xdc:21]
+Finished Parsing XDC File [/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.srcs/constrs_1/imports/src/nexys-a7-100t.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8095.242 ; gain = 0.000 ; free physical = 16002 ; free virtual = 29835
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 8298.332 ; gain = 363.789 ; free physical = 15819 ; free virtual = 29652
+report_utilization -name utilization_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.srcs/sources_1/ip/clkwiz/clkwiz.xci' is already up-to-date
+[Fri Jun  6 13:43:14 2025] Launched impl_1...
+Run output will be captured here: /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.06 . Memory (MB): peak = 8298.332 ; gain = 0.000 ; free physical = 16152 ; free virtual = 29999
+INFO: [Netlist 29-17] Analyzing 768 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.35 . Memory (MB): peak = 8363.305 ; gain = 0.000 ; free physical = 15967 ; free virtual = 29821
+Restored from archive | CPU: 0.370000 secs | Memory: 13.293640 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.35 . Memory (MB): peak = 8363.305 ; gain = 0.000 ; free physical = 15967 ; free virtual = 29821
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8363.305 ; gain = 0.000 ; free physical = 15966 ; free virtual = 29821
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+close_design
+reset_run synth_1
+INFO: [Project 1-1160] Copying file /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.runs/synth_1/croc_xilinx.dcp to /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -jobs 10
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.clkwiz/clkwiz.srcs/sources_1/ip/clkwiz/clkwiz.xci' is already up-to-date
+[Fri Jun  6 14:07:11 2025] Launched synth_1...
+Run output will be captured here: /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.runs/synth_1/runme.log
+[Fri Jun  6 14:07:11 2025] Launched impl_1...
+Run output will be captured here: /home/veronrd/veron_github/croc_soc/xilinx/build/nexys-a7-100t.croc/croc.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 8585.754 ; gain = 0.000 ; free physical = 17680 ; free virtual = 31465
+INFO: [Netlist 29-17] Analyzing 768 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.37 . Memory (MB): peak = 8585.754 ; gain = 0.000 ; free physical = 17506 ; free virtual = 31292
+Restored from archive | CPU: 0.390000 secs | Memory: 13.270752 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.37 . Memory (MB): peak = 8585.754 ; gain = 0.000 ; free physical = 17506 ; free virtual = 31292
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8585.754 ; gain = 0.000 ; free physical = 17506 ; free virtual = 31292
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  6 14:14:51 2025...
